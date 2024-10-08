@@ -4,38 +4,38 @@ import Hudson from "../../assets/images/team/team-03.png";
 import Sanders from "../../assets/images/team/team-04.png";
 import { Facebook, Instagram, TeamSvg, Twitter } from "../svg/Svg";
 
-const TeamMemberr = () => {
-  const teamData = [
-    {
-      id: 1,
-      img: Melissa,
-      name: "Melissa Tatcher",
-      designation: "Marketing Expert",
-    },
-
-    {
-      id: 2,
-      img: Stuard,
-      name: "Stuard Ferrel",
-      designation: "Digital Marketer",
-    },
-
-    {
-      id: 3,
-      img: Hudson,
-      name: "Eva Hudson",
-      designation: "Creative Designer",
-    },
-
-    {
-      id: 4,
-      img: Sanders,
-      name: "Jackie Sanders",
-      designation: "Founder of Facebook",
-    },
-  ];
-  return (
-    <div className="-mx-4 flex flex-wrap justify-center">
+const TeamMember = () => {
+    const teamData = [
+        {
+          id: 1,
+          img: Melissa,
+          name: "Melissa Tatcher",
+          designation: "Marketing Expert",
+        },
+    
+        {
+          id: 2,
+          img: Stuard,
+          name: "Stuard Ferrel",
+          designation: "Digital Marketer",
+        },
+    
+        {
+          id: 3,
+          img: Hudson,
+          name: "Eva Hudson",
+          designation: "Creative Designer",
+        },
+    
+        {
+          id: 4,
+          img: Sanders,
+          name: "Jackie Sanders",
+          designation: "Founder of Facebook",
+        },
+      ];
+    return (
+        <div className="-mx-4 flex flex-wrap justify-center">
       {teamData.map((team) => {
         return (
           <div className="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4" key={team.id}>
@@ -84,7 +84,7 @@ const TeamMemberr = () => {
         );
       })}
     </div>
-  );
+    );
 };
 
-export default TeamMemberr;
+export default TeamMember;

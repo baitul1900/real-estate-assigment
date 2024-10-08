@@ -9,7 +9,8 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import PropertiseCard from "./components/propartiesCard/PropertiseCard";
 import { FaqBgBlue, FaqBgGreen } from "./components/svg/Svg";
-import TeamMemberr from "./components/teamCards/teamMemberr";
+import TeamMember from "./components/teamCards/TeamMember";
+
 
 function App() {
   return (
@@ -120,7 +121,7 @@ function App() {
           </div>
 
           {/* card goes here */}
-          <TeamMemberr />
+          <TeamMember/>
         </div>
       </section>
       {/* tem member here end */}
